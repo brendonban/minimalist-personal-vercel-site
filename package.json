@@ -37,5 +37,8 @@
     "prettier-plugin-tailwindcss": "^0.6.10",
     "tailwindcss": "^4.0.0",
     "typescript": "^5"
-  }
+  },
+  "devDependencies": {
+  "eslint-plugin-prettier": "^4.2.1" // version may vary
+}
 }
