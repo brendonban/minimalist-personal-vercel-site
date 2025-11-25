@@ -6,12 +6,11 @@ type Project = {
   id: string
 }
 
-type WorkExperience = {
-  company: string
-  title: string
+type Education = {
+  university: string
+  degree: string
   start: string
   end: string
-  link: string
   id: string
 }
 
@@ -47,30 +46,20 @@ export const PROJECTS: Project[] = [
   },
 ]
 
-export const WORK_EXPERIENCE: WorkExperience[] = [
+export const EDUCATION: Education[] = [
   {
-    company: 'Reglazed Studio',
-    title: 'CEO',
-    start: '2024',
+    university: 'Universiti Malaya',
+    degree: 'Master of Professional Counselling'
+    start: '2025',
     end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work1',
+    id: 'university1',
   },
   {
-    company: 'Freelance',
-    title: 'Design Engineer',
-    start: '2022',
-    end: '2024',
-    link: 'https://ibelick.com',
-    id: 'work2',
-  },
-  {
-    company: 'Freelance',
-    title: 'Front-end Developer',
-    start: '2017',
-    end: 'Present',
-    link: 'https://ibelick.com',
-    id: 'work3',
+    university: 'Taylors University',
+    degree: 'Bachelor of Psychology (Honours)'
+    start: '2020',
+    end: '2022',
+    id: 'university2',
   },
 ]
 
