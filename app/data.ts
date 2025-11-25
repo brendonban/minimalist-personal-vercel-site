@@ -1,3 +1,4 @@
+// Types
 type Project = {
   name: string
   description: string
@@ -25,6 +26,7 @@ type SocialLink = {
   link: string
 }
 
+// Projects
 export const PROJECTS: Project[] = [
   {
     name: 'Motion Primitives Pro',
@@ -45,6 +47,7 @@ export const PROJECTS: Project[] = [
   },
 ]
 
+// Education
 export const EDUCATION: Education[] = [
   {
     university: 'Universiti Malaya',
@@ -53,39 +56,30 @@ export const EDUCATION: Education[] = [
     end: 'Present',
   },
   {
-    university: 'Taylors University',
+    university: "Taylor's University",
     degree: 'Bachelor of Psychology (Honours)',
     start: '2020',
     end: '2022',
   },
 ]
 
+// Blog Posts
 export const BLOG_POSTS: BlogPost[] = [
   {
-  title: 'How to Export Metadata from MDX for Next.js SEO',
-    description: 'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
+    title: 'How to Export Metadata from MDX for Next.js SEO',
+    description:
+      'A guide on exporting metadata from MDX files to leverage Next.js SEO features.',
     link: '/blog/example-mdx-metadata',
     uid: 'blog-4',
   },
 ]
 
+// Social Links
 export const SOCIAL_LINKS: SocialLink[] = [
-  {
-    label: 'ORCiD',
-    link: 'https://orcid.org/0000-0001-9555-1566',
-  },
-  {
-    label: 'Twitter',
-    link: 'https://twitter.com/hunny_bunny1998',
-  },
-  {
-    label: 'LinkedIn',
-    link: 'https://www.linkedin.com/in/brendonban',
-  },
-  {
-    label: 'Instagram',
-    link: 'https://www.instagram.com/zzbban',
-  },
+  { label: 'ORCiD', link: 'https://orcid.org/0000-0001-9555-1566' },
+  { label: 'Twitter', link: 'https://twitter.com/hunny_bunny1998' },
+  { label: 'LinkedIn', link: 'https://www.linkedin.com/in/brendonban' },
+  { label: 'Instagram', link: 'https://www.instagram.com/zzbban' },
 ]
 
 export const EMAIL = 'brendon.ban@outlook.com'
