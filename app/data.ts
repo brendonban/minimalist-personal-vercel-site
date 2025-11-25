@@ -48,7 +48,7 @@ export const PROJECTS: Project[] = [
 export const EDUCATION: Education[] = [
   {
     university: 'Universiti Malaya',
-    degree: 'Master of Professional Counselling'
+    degree: 'Master of Professional Counselling',
     start: '2025',
     end: 'Present',
   },
