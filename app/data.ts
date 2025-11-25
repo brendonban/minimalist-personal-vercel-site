@@ -54,7 +54,7 @@ export const EDUCATION: Education[] = [
   },
   {
     university: 'Taylors University',
-    degree: 'Bachelor of Psychology (Honours)'
+    degree: 'Bachelor of Psychology (Honours)',
     start: '2020',
     end: '2022',
   },
