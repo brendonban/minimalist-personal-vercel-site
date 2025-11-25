@@ -39,6 +39,8 @@
     "typescript": "^5"
   },
   "devDependencies": {
-  "eslint-plugin-prettier": "^4.2.1" // version may vary
+  "eslint-plugin-prettier": "^4.2.1",
+  "some-other-package": "^1.0.0"
+}
 }
 }
