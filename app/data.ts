@@ -11,7 +11,6 @@ type Education = {
   degree: string
   start: string
   end: string
-  id: string
 }
 
 type BlogPost = {
