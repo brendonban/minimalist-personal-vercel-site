@@ -51,14 +51,12 @@ export const EDUCATION: Education[] = [
     degree: 'Master of Professional Counselling'
     start: '2025',
     end: 'Present',
-    id: 'university1',
   },
   {
     university: 'Taylors University',
     degree: 'Bachelor of Psychology (Honours)'
     start: '2020',
     end: '2022',
-    id: 'university2',
   },
 ]
 
